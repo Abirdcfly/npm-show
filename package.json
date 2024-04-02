@@ -1,6 +1,6 @@
 {
-  "name": "@Abirdcfly/npm-show",
-  "version": "1.0.4",
+  "name": "@abirdcfly/npm-show",
+  "version": "1.0.5",
   "description": "",
   "main": "index.js",
   "scripts": {
