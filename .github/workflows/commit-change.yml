@@ -36,7 +36,7 @@ jobs:
         if: ${{ hashFiles('.installed') == '' }}
         run: |
           npm install @alilc/lowcode-engine --save-dev || echo "Failed: ${package}"
-          rm .packages
+          rm -r -f .packages
 
       - name: Reinstall dependencies
         run: npm ci
